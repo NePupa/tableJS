@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	background-color: #fafafa;
+	font-family: sans-serif;
+}
+table th {
+	color: #ffffff;
+	background: #00bf80;
+	border: 1px solid #01ab73;
+}
+th:hover {
+	cursor: pointer;
+}
+table td {
+	border: 1px solid #e8e9eb;
+	background: #f4f4f4;
+}
+td:hover {
+    background: #ebffe8;
+    cursor: pointer;
+}
+table {
+	border-collapse: collapse;
+	float: left;
+}
+#elem {
+	position: fixed;
+	height: 300px;
+	width: 400px;
+	border: 2px solid #00bf80;
+	border-radius: 10px;
+}
+#write {
+	outline: none;
+	margin-left: 2px;
+	margin-top: 5px;
+	width: 99%;
+	height: 88%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.button {
+	border: none;
+	outline: none;
+	width: 80px;
+	height: 30px;
+	background-color:  #00bf80;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.box {
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+}
+#pages {
+	margin-top: 50px;
+	width: 1000px;
+	height: 100px;
+	clear: both;
+	position: relative;
+}
+#wrap {
+	position: absolute;
+	top: 30px;
+	width: 1000px;
+	height: 50px;
+}
+.p {
+	width: 50px;
+	height: 30px;
+	background-color: #00bf80;
+	display: inline-block;
+	margin-left: 5px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+	color: #ffffff;
+}
+.p:hover {
+    cursor: pointer;
+    background: #5cffc9;
+    color: black;
+}
+.tbody {
+	display: none;
+}
